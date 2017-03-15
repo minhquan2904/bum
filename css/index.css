@@ -1,0 +1,177 @@
+.b-header{
+  background-image: url(../img/fixheader.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+  height: 613px;
+}
+.b-navbar{
+  margin: auto;
+  width: 80%;
+  padding-top: 562px;
+}
+
+.flex-box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-navbar .my-navbar{
+  background-color: transparent;
+  border: 0;
+  padding-top: 15px;
+  border-bottom: 2px solid yellow;
+  height: 48px;
+}
+
+.nav.navbar-nav {
+  width: auto;
+  height: 100%;
+  padding-bottom: -10px;
+}
+
+.b-li {
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+.b-navbar li{
+  padding: 0px 15px;
+  width: auto;
+  height: 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFD400;
+  padding-top: 10px;
+}
+.navbar-default .navbar-nav>li>a:visited {
+  color: #FFD400;
+  padding-top: 10px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+  padding-top: 10px;
+}
+.b-navbar li:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #FFD400;
+}
+.b-container{
+  height: 100%;
+}
+/*Quảng cáo*/
+.b-ad{
+  margin-top: 615px;
+  max-width: 200px;
+  position: absolute;
+}
+.b-ad img{
+  max-width: 200px;
+  height: 500px;
+
+}
+.b-link-intro img{
+  min-width: 848px;
+  max-height: 466px;
+  max-width: 849px;
+  position: absolute;
+}
+/*Tin tức*/
+.b-link-new{
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-right: 5px;
+}
+.b-link-new img{
+
+    width:380px;
+    height: 200px;
+
+}
+.b-para-news{
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 420px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: oblique;
+
+}
+/* Giới thiệu*/
+.b-para-intro{
+  padding-top:410px;
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: oblique;
+  position: absolute;
+}
+.intro:hover{
+  text-decoration: underline;
+}
+.b-date-post{
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+}
+.b-date-post:hover{
+  text-decoration: none;
+}
+.b-view-intro{
+  padding-left: 15px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+}
+#ad-left{
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+#ad-right{
+  right: 0;
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100%;
+  background-color: rgb(2, 1, 0);
+}
+
+.card-container {
+  width: 100%;
+  background: url(../img/intro-demo.jpg) center;
+}
+
+.divisor {
+  height: 300px;
+}
+
+.card-title {
+  width: 100%;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.card-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-sub {
+  padding: 0px 10px 5px 10px;
+}
+.card-sub span {
+  color: white;
+  font-size: 1em;
+}
