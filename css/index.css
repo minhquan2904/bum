@@ -10,10 +10,14 @@
 @media(max-width: 460px) {
   .b-header{
     background-image: url(../img/header-phone.jpg);
-    background-size: cover;
+    height: auto;
   }
   #wrapper{
-
+    width: auto;
+    height: auto;
+  }
+  .b-navbar{
+    padding-top: 530px!important;
   }
 }
 .b-navbar {
@@ -119,7 +123,7 @@
 .b-para-news {
     padding-top: 10px;
     padding-left: 10px;
-    width: 420px;
+    width: 100%;
     color: white;
     font-size: 20px;
     font-weight: bolder;
@@ -388,8 +392,8 @@ footer{
  #social-gp:hover {
      color: #d34836;
  }
- #social-em:hover {
-     color: #f39c12;
+ #social-yt:hover {
+     color: #d34836;
  }
  .text-right.center-block.icon-social {
      padding-top: 10px;
