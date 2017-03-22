@@ -1,11 +1,14 @@
 .b-header {
     background-image: url(../img/fixheader.jpg);
-    background-size: auto auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center center;
     height: 613px;
     position: relative;
     z-index: 1;
+}
+
+
 }
 @media(max-width: 460px) {
   .b-header{
@@ -23,7 +26,7 @@
 .b-navbar {
     margin: auto;
     width: 80%;
-    padding-top: 562px;
+    padding-top: 560px;
 }
 
 .flex-box-center {
@@ -286,6 +289,8 @@ body {
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#232320 ', endColorstr='#232320 ', GradientType=0);
         /* IE6-9 */
     }
+
+
 }
 
 @media(max-width: 460px) {
@@ -313,12 +318,7 @@ body {
     padding-top: 600px!important;
   }
 }
-@media(max-height: 670px ) and (min-height:650px)
-{
-  .b-navbar{
-    padding-top: 580px!important;
-  }
-}
+
 /*sidebar*/
 
 .sidebar {
