@@ -7,9 +7,6 @@
     position: relative;
     z-index: 1;
 }
-
-
-}
 @media(max-width: 460px) {
   .b-header{
     background-image: url(../img/header-phone.jpg);
@@ -26,7 +23,7 @@
 .b-navbar {
     margin: auto;
     width: 80%;
-    padding-top: 560px;
+    padding-top: 562px;
 }
 
 .flex-box-center {
@@ -289,8 +286,6 @@ body {
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#232320 ', endColorstr='#232320 ', GradientType=0);
         /* IE6-9 */
     }
-
-
 }
 
 @media(max-width: 460px) {
