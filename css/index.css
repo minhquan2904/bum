@@ -317,10 +317,25 @@ body {
 /*sidebar*/
 
 .sidebar {
+    z-index: 9999;  
     float: left;
-    height: 300px;
+    height: 360px;
     background-color: white;
 }
+.col-xs-8,.col-sm-8, .col-xs-2,.col-sm-2 {
+    padding: 0 0;
+}
+
+.sidebar iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 /* FOOTER */
 .footer-distributed{
   padding-top: 20px;
@@ -340,6 +355,7 @@ body {
   background-color: white!important;
 }
 footer{
+    z-index: 1;
   height: 100%;
 }
 .footer-distributed.col-lg-12.col-sm-12.col-xs-12 {
