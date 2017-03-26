@@ -7,19 +7,21 @@
     position: relative;
     z-index: 1;
 }
+
 @media(max-width: 460px) {
-  .b-header{
-    background-image: url(../img/header-phone.jpg);
-    height: auto;
-  }
-  #wrapper{
-    width: auto;
-    height: auto;
-  }
-  .b-navbar{
-    padding-top: 530px!important;
-  }
+    .b-header {
+        background-image: url(../img/header-phone.jpg);
+        height: auto;
+    }
+    #wrapper {
+        width: auto;
+        height: auto;
+    }
+    .b-navbar {
+        padding-top: 530px!important;
+    }
 }
+
 .b-navbar {
     margin: auto;
     width: 80%;
@@ -37,14 +39,15 @@
     border: 0;
     padding-top: 7px;
     border-bottom: 2px solid yellow;
+
     /* height: 48px; */
 }
-
 
 .nav.navbar-nav {
     width: auto;
     height: 100%;
     padding-left: 10px;
+    display: inline-flex;
 }
 
 .b-li {
@@ -277,11 +280,11 @@ body {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,febf04+100;Yellow+3D+%232 */
         background: #ffd65e;
         /* Old browsers */
-        background: -moz-linear-gradient(top, #807f79 0%, #232320  100%);
+        background: -moz-linear-gradient(top, #807f79 0%, #232320 100%);
         /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #232320  0%, #232320  100%);
+        background: -webkit-linear-gradient(top, #232320 0%, #232320 100%);
         /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom,#232320  0%, #232320  100%);
+        background: linear-gradient(to bottom, #232320 0%, #232320 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#232320 ', endColorstr='#232320 ', GradientType=0);
         /* IE6-9 */
@@ -304,150 +307,169 @@ body {
     }
 }
 
-@media(max-height: 740px ) and (min-height:670px)
-{
-  #content{
-      padding-top: 150px!important;
-  }
-  .b-navbar{
-    padding-top: 600px!important;
-  }
+@media(max-height: 740px) and (min-height:670px) {
+    #content {
+        padding-top: 150px!important;
+    }
+    .b-navbar {
+        padding-top: 600px!important;
+    }
 }
+
 
 /*sidebar*/
 
 .sidebar {
-    z-index: 9999;  
     float: left;
     height: 360px;
     background-color: white;
 }
-.col-xs-8,.col-sm-8, .col-xs-2,.col-sm-2 {
+
+.col-xs-8,
+.col-sm-8,
+.col-xs-2,
+.col-sm-2 {
     padding: 0 0;
 }
 
-.sidebar iframe{
+.sidebar iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
 
-
 /* FOOTER */
-.footer-distributed{
-  padding-top: 20px;
-  background-image: url(../img/end1.png);
-  background-size:100% auto;
-  min-height: 200px;
-  background-repeat: no-repeat;
-  background-position: center center;
 
+.footer-distributed {
+    padding-top: 20px;
+    background-image: url(../img/end1.png);
+    background-size: 100% auto;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-.footer-left{
-  padding: 10px 0px 0px 50px;
-  min-height: 50px;
+
+.footer-left {
+    padding: 10px 0px 0px 50px;
+    min-height: 50px;
 }
-.footer-text{
-  margin-bottom: 5px;
-  background-color: white!important;
+
+.footer-text {
+    margin-bottom: 5px;
+    background-color: white!important;
 }
-footer{
+
+footer {
     z-index: 1;
-  height: 100%;
+    height: 100%;
 }
+
 .footer-distributed.col-lg-12.col-sm-12.col-xs-12 {
-  padding-top: 0px;
+    padding-top: 0px;
 }
+
 @media (max-width: 1200px) {
-  .footer-distributed {
-    min-height: 180px !important;
-  }
+    .footer-distributed {
+        min-height: 180px !important;
+    }
 }
+
 @media (max-width:980px) {
-  .footer-distributed {
-    min-height: 160px !important;
-  }
+    .footer-distributed {
+        min-height: 160px !important;
+    }
 }
 
 @media (max-width: 950px) {
-  .footer-distributed {
-    min-height: 150px !important;
-  }
+    .footer-distributed {
+        min-height: 150px !important;
+    }
 }
 
 @media (max-width: 900px) {
-  .footer-distributed {
-    min-height: 125px !important;
-  }
+    .footer-distributed {
+        min-height: 125px !important;
+    }
 }
-@media (max-width: 756px) {
-  .footer-distributed {
-    min-height: 100px !important;
-  }
-}
-@media (max-width: 460px) {
-  .footer-distributed {
-    min-height: 60px !important;
-  }
-  .text-right.center-block.icon-social {
-    padding-right: 0px !important;
-}
-}
-/*icon social*/
-.social:hover {
-     -webkit-transform: scale(1.1);
-     -moz-transform: scale(1.1);
-     -o-transform: scale(1.1);
- }
- .social {
-     -webkit-transform: scale(0.8);
-     /* Browser Variations: */
 
-     -moz-transform: scale(0.8);
-     -o-transform: scale(0.8);
-     -webkit-transition-duration: 0.5s;
-     -moz-transition-duration: 0.5s;
-     -o-transition-duration: 0.5s;
- }
+@media (max-width: 756px) {
+    .footer-distributed {
+        min-height: 100px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer-distributed {
+        min-height: 60px !important;
+    }
+    .text-right.center-block.icon-social {
+        padding-right: 0px !important;
+    }
+}
+
+
+/*icon social*/
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
 
 /*
     Multicoloured Hover Variations
 */
 
- #social-fb:hover {
-     color: #3B5998;
- }
- #social-tw:hover {
-     color: #4099FF;
- }
- #social-gp:hover {
-     color: #d34836;
- }
- #social-yt:hover {
-     color: #d34836;
- }
- .text-right.center-block.icon-social {
-     padding-top: 10px;
-     padding-right: 25px;
- }
- p.footer-links {
-     font-family: "Roboto-bold",sans-serif;
-     font-weight: bold;
-     padding-top: 10px;
+#social-fb:hover {
+    color: #3B5998;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+}
+
+#social-gp:hover {
+    color: #d34836;
+}
+
+#social-yt:hover {
+    color: #d34836;
+}
+
+.text-right.center-block.icon-social {
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+p.footer-links {
+    font-family: "Roboto-bold", sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
     font-size: 15px;
- }
- @media(max-width: 900px) {
-   p.footer-links {
-     font-size: 12px!important;
-   }
+}
 
- }
- @media(max-width: 770px) {
-   p.footer-links {
-     font-size: 11px!important;
-   }
+@media(max-width: 900px) {
+    p.footer-links {
+        font-size: 12px!important;
+    }
+}
 
- }
+@media(max-width: 770px) {
+    p.footer-links {
+        font-size: 11px!important;
+    }
+}
