@@ -551,3 +551,19 @@ figcaption{
   display: block;
   margin: auto;
 }
+.role{
+  background-color: white!important;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+h1.page-header {
+
+	border-bottom: 0;
+}
+.role-info p{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
