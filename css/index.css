@@ -345,13 +345,25 @@ body {
 
 .footer-distributed {
     padding-top: 20px;
-    background-image: url(../img/end1.png);
+     background-image: url(../img/end1.png);
     background-size: 100% auto;
     min-height: 200px;
     background-repeat: no-repeat;
     background-position: center center;
 }
+#footerleft{
+    padding-bottom: 10px;
+}
+#footerright{
 
+background-color: green;
+}
+.footerfan{
+    margin:20px 0 20px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+}
 .footer-left {
     padding: 10px 0px 0px 50px;
     min-height: 50px;
